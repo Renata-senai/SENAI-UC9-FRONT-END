@@ -6,18 +6,23 @@
     box-sizing: border-box;
 }
 header{
-    background-color: #819ac7;
+    background-image:linear-gradient(to top, white,#819ac7);
     height: 216px;
     width: 1950px;
 }
-
+.icones{
+    height: 220px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 .container-grid{
     width: 1950px;
     height: 100%;
-    margin: auto;
+    margin: 0;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 .menu a{
     color: black;
@@ -30,20 +35,58 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.container-grid2{
-    width: 1950px;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #819ac7;
-}
 .banner{
     height: 1000px;
     width: 1950px;
     background-image: url(../img/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-
+}
+.games a{
+    font-family: 'Tajawal', sans-serif;
+    width: 1950px;
+    height: 100%;
+    text-decoration: none;
+    height: 100%;
+    margin: auto;
+    font-size: 80px;
+    background-image:linear-gradient(to top, white,#819ac7);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1950px;
+}
+.informacao-valores{
+    justify-content: center;
+    align-items: center;
+}
+.logo-pc{
+    height: 1000px;
+    width: 1950px;
+    background-image: url(../img/image\ 25.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rodape{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 1950px;
+    background-image:linear-gradient(to top,#819ac7, white);
+}
+.redes-sociais{
+    background-image:linear-gradient(to top, white,#819ac7);
+    width: 1950px;
+}
+.texto-redes{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1950px;
+    background-image:linear-gradient(to top, white,#819ac7);
+}
+.rede-social{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1950px;
+    background-image:linear-gradient(to top, white,#819ac7);
 }
