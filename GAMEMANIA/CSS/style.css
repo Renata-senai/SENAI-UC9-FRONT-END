@@ -37,6 +37,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
 .banner{
     height: 1000px;
     width: 1200px;
