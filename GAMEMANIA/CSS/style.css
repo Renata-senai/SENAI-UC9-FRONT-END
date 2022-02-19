@@ -37,14 +37,16 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
 .banner{
+    width: 1200px;
+}
+/* .banner{
     height: 1000px;
     width: 1200px;
     background-image: url(../img/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .games{
     height: 50px;
@@ -67,6 +69,11 @@ header{
     align-items: center;
     justify-content: space-around;
     text-align: center;
+}
+
+form{
+    padding: 15px;
+    
 }
 
 .secao-jogos .grid-container img{
